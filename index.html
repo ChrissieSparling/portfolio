@@ -1,93 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Chrissie's portfolio</title>
-     <link rel="stylesheet" href="./assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <title>Chrissie Sparling Portfolio</title>
+    
 </head>
 <body>
-     <header>
-          <h1><center>The Amazing ... "Chrissie Sparling"</center></h1>
-     <IMG SRC="./assets/images/chrissies.jpg" class="float-right header-pic" alt= "chrissies pic"/>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="https://github.com/ChrissieSparling" class="menu-btn">GitHub Repositories</a></li>
+                <li><a href="#about" class="menu-btn">About Me</a></li>
+                <li><a href="https://chuckdvchek.github.io/thirsty-thursdays/" class="menu-btn">Team Project</a></li>
+                <li><a href="mailto: gigglewrks@aol.com" class="menu-btn">Contact me</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-          <nav>
-               <ul>
-                    <li>
-                          <a href="#About Me">About Me</a>
-                    </li>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello Friends</div>
+                <div class="text-2">Welcome to the Amazing</div>
+                <div class="text-3">Chrissie Sparling<span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
 
-                    <li>
-                         <a href="https://github.com/ChrissieSparling">Current Projects</a>
-                    </li>
-                    <li>
-                         <a href="#Working on">working on</a>
-                    </li>
-                    <li>
-                         <a href="mailto: gigglwrks@aol.com">Contact me</a>
-                    </li>
-                </ul>
-          </nav>
-     </header>
-     
-    <main>
-          <section class="info">
-               <h2>About Me</h2>
-               <p id = "Opening">Welcome Friends. I am an open book. Perfection is what I am sure everyone seeks, but I am more of an "Imperfect" perfect. I have learned in my 47 years on this planet, what is truly important to me and that is family. Whether that be my work family or my blood family or my friend family...family comes first. Always. They say there is no I in team...so I struggle with how to tell you that I am a team player when I must be present...lol...oh yeah...I have an amazing sense of humor and it should be known I have been fired twice in my life for being "Happy ALL the time". So if you are looking for someone, eager to learn, eager to represent, will work tirelessly for all goals- company and individual alike, who is always (mostly) Happy...then give me a holler. I am your girl!!
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <IMG src="./assets/images/chrissies.jpg" class="float-right header-pic" alt= "chrissies pic"/>
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Chrissie or "Pinkie-Pie". <br>I'm a,"  <span class="typing-2"></span></div>
+                    <p>I have learned in my 47 years on this planet, what is truly important to me and that is family. Whether that be my work family, my blood family, my tribal family, or my friend family...Family comes first. </p>
+               <br>
+
+                    Always. 
+                <p> 
+                <br>    
+                    My husband and I were high school sweethearts. We have been together for thirty years. We have two amazing children together.  They are 23 and 18. One is studying to be a Doctor at the UW and the other is a senior in High School, hoping to go on the "Disc-golf Pro-Tour" after graduation.
                </p>
-          </section>
-         <section class="info">
-              <p>
-                   <h2>Working on</h2>
-              </p>
-              <div id="container">
-                   <div class="()columns">
-               </div>
-                  <ol class="flex-container" type ="1">
-                       <li class= "card">"Intro into HTML and CSS"
-                            <p>
-                              <section id="list-item1">
-                              <img src="https://images3.alphacoders.com/270/270625.jpg" alt= "keyboard">
-                            </section>
-                            </p>
-                         </li>
-                         <li class="card">"javaScript"
-                              <p>
-                                   <section id="list-item2">
-                              <img src="https://th.bing.com/th/id/R.3cb762c3211109f67e011059db6e9008?rik=dIFaYkbg4dTbow&riu=http%3a%2f%2fcdn.windowsreport.com%2fwp-content%2fuploads%2f2017%2f09%2fJava-cover.png&ehk=IWsyVY%2fDGX3WxxpwdpQadv9XtZmFFp4rrsM%2bpw14KNI%3d&risl=&pid=ImgRaw&r=0" alt= "Javascript">
-                              </section>
-                         </p>
-                         </li>
-                         
-                         <li class="card">"Python"
-                            <p>
-                              <section id="list-item3">
-                              <img src="http://weknowyourdreams.com/images/snake/snake-07.jpg" alt= "Python">
-                              </section>
-                            </p>
-                         </li>
-                         <li class = "card">"How I'm Feeling Right Now"
-                            <p>
-                              <section id="list-item4">
-                              <img src="https://th.bing.com/th/id/OIP.TAE5EU-cBwHABu0ADtyE3gHaMA?w=196&h=318&c=7&r=0&o=5&dpr=2.5&pid=1.7" alt= "how I am feeling right now">
-                               </section>
-                            </p>
-                         </li>
-                  </ol>
-              </div>
-         </section>
-     </main>
-     
-     <br>
+               <p>
+               <br>
+                    My husband and I own two businesses. 
+                    GiggleWorks-Entertainment which we have performed at more than 5000 individual homes for birthday party's and worked with hundreds of business and corporations.
+               </p>
+               <p>
+               <br>
+                    Including: 
+                    Seattle Mariners
+                    Seattle SeaHawks
+                    Seattle SuperSonics
+                    Pacific Northwest Ballet
+                    University of Washington
+                    Romios Pizza and Pasta corporate/franchises
+                    McDonald's corporate/franchises
+                    Sand Point Country Club
+                    Starbucks
+                    Seattle Best coffee
+                    seattle Children's Hospital
+                    Multiple Radio Stations
+                    Bill and Melinda Gates Foundation
+                </p>
+                <p>
+                <br>  
+                    We are Balloon Artists, Magicians, and provide "hilarious", all ages, Comedy shows.
+                </p>
+                <p>
+                <br>
+                    The other business my husband and I own is called Second-Hand-Wands.
+                    We are artists. 
+                    We refurbish items and create art from whatever we want. There is no limits on art other than those we put upon ourselves.
+                    I make steampunk creations and Native treasures(with powerful protections put on them for negating dark energy). While Scott, My husband, makes magic wands. Staffs. sculptures. and beautiful paintings.
+                </p>
+                <p>
+                <br>   
+                    I believe the best work is : TeamWork!
+                    They say there is no I in team...so I struggle with how to tell you that "I" am a team player when "I" must be present...I actually believe the best teams are those that can work together without comprise to their own individualism...lol
+                </p>
+                <p>
+                <br>
+                    I have an amazing sense of humor and it should be known I have been fired twice in my life for being "Happy ALL the time". You think I am joking. But being Happy is actually a deficit when it annoys 90 percent of humanity. Really gives you a perspective on Misery and how vast Her reach is, however, I continue to try to spread cheer and happiness because I feel blessed to be married to my best friend and have two amazing kids. A family who loves me. A job that keeps us a float. I will always look for the silver lining in situations and keep everyone spirits up threw tough or intense situations.
+               <br>          
+                   </p>
+                   <a target="_blank" class="fcc-btn" href="https://www.facebook.com/Second-Hand-Wands-110389977822813/">Second-Hand-Wands-Art</a>
+                   <a target="_blank" class="fcc-btn" href="https://www.facebook.com/GiggleWorks-106449889384300/">GiggleWorks-Entertainment</a>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
 
-     <footer>
-          <a target="_blank" class="fcc-btn" href="https://www.facebook.com/chrissie.sparling">Facebook</a>
-          <a target="_blank" class="fcc-btn" href="mailto: gigglwrks@aol.com" >Contact me</a>
-          <a target="_blank" class="fcc-btn" href="https://github.com/ChrissieSparling/Combined-Business">github repository</a>
-          <h2>
-               <center>Thanks for stopping by...We hope you enjoyed the show</center>
-          </h2>
-     </footer>
+    <!-- footer section start -->
+    <footer>
+        <span>Created By Chrissie Sparling for your viewing pleasure<span class="far fa-copyright"></span> Oct. 10, 2021 All rights reserved for what who cares.</span>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
