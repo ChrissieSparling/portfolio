@@ -1,13 +1,21 @@
 # portfolio
 professional portfolio
-Nav bar:
-picture of me, contact me, and a link to one of my repository's on git hub
+Nav bar: LIO
+Portfolio
+contact me(link is not working-need to address)
+git repositories
+team project
+about me
+
 
 about me:
-This section has some of my passions and my achievements. 
+This section has some of my passions and my achievements. Mostly its just me talking.
+I made a really cool scrolling array with some of things I consider myself to be. 
+I plan to add more specific links to projects I have created during the course of the class.
 
-Working on:
-Is basically a holding places for work I am sure we will do these next few months.
+links to the sight:
+https://github.com/ChrissieSparling/portfolio
 
-footer: more contact links, and links to my social media and git hub ...plus a "we wish you well and hope you enjoyed the chrissie Experience," message.
+
+
 
